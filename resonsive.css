@@ -1,5 +1,5 @@
   /* Media Query for low resolution  Tablets, Ipads */
-  @media only screen and (max-width: 576px) {
+  @media only screen and (max-width: 560px) {
     header {
         top: 64px;
         width: 100%;
@@ -8,32 +8,20 @@
       background-size: 678px 815px;
   }
   #h1{
-      margin-left: 91px;
-      margin-top: 17px;
-      width: 232px;
-      font-size: 0.6rem;
+     width: 40%;
   }
   #logo{
-      width: 75px;
-      margin-left: 7px;
-      margin-top: -33px;
+      width: 74px;
+      margin-top: -50px;
+      
   }
   nav{
-    width: 293px;
-    
+    width: 64%;
   }
-    ul{
-    list-style-type: none;
-    display: flex;
-    }
-    ul li{
-      font-size: 0.6rem;
-      margin-left: 5px;
-    }
-    
+
     ul li a{
-      margin: 15px 3px;
-      font-size: 00.6rem;
+      margin: 6px;
+      font-size: 0.8rem;
 
     }
   
@@ -46,12 +34,13 @@
     }
     .search-box{
       line-height: 34px;
-      
+      width: 28%;
       font-size: 0.6rem;
+      float: right;
     }
     .search-box input[type="text"]{
-        width: 99px;
-        padding: 1px;
+        width: 13%;
+
         margin-right: 19px;
     }
     .search-box input[type="button"] {
@@ -61,7 +50,7 @@
     }
   
   #self{
-    margin-top: 104px;
+    margin-top: 109px;
     width: 203px;
   }
   #d1{
@@ -70,33 +59,22 @@
   #d2{
     width: 203px;
 }
+.videos{
+   flex: none;
+}
 .video{
-   padding-left: 81px;
-    background-color: white;
-    border: 1px solid black;
-    display: inline-block;
-    flex: none;
+  width: 25%;
+  
 }
-#video1{
-  padding: 14px;
-  width: 331px;
-}
-#video2{
-  padding: 14px;
-  width: 331px;
-}
-#video3{
-  padding: 14px;
-  width: 331px;
-}
+
 #Dhoni_article{
-  padding: 13px 14px 6px 14px;
-  width: 331px;
+  padding: 15px;
+  width: 72%;
   font-size: 0.8rem;
 }
 #footer {
   padding: 18px;
-  width: 360px;
+  width: 77%;
   height: 31px;
 }
 #footer a{
