@@ -1,14 +1,14 @@
-  /* Media Query for low resolution  Tablets, Ipads */
-  @media only screen and (max-width: 560px) {
+  /* Media Query for mobile phones*/
+  @media only screen and (max-width: 768px) {
     header {
-        top: 64px;
         width: 100%;
     }
     body{
-      background-size: 678px 815px;
+      background-size: 110%;
+      background-color: white;
   }
   #h1{
-     width: 40%;
+     width: 56%;
   }
   #logo{
       width: 74px;
@@ -16,30 +16,25 @@
       
   }
   nav{
-    width: 64%;
+    width: 100%;
   }
 
     ul li a{
-      margin: 6px;
-      font-size: 0.8rem;
+      font-size: 0.7rem;
 
     }
-  
-    ul li.active{
-     text-align: right;
-    }
-  
     .fa-search{
       margin-left: 71;
     }
     .search-box{
       line-height: 34px;
-      width: 28%;
+      width: 15%;
       font-size: 0.6rem;
-      float: right;
+      margin-right: 230px;
     }
     .search-box input[type="text"]{
-        width: 13%;
+        width: 60%;
+        padding: 0px 2px;
 
         margin-right: 19px;
     }
@@ -50,7 +45,7 @@
     }
   
   #self{
-    margin-top: 109px;
+    margin-top: 119px;
     width: 203px;
   }
   #d1{
@@ -60,22 +55,30 @@
     width: 203px;
 }
 .videos{
-   flex: none;
+   display: list-item;
+   width: 100%;
+   background-color: white;
+   border: none;
 }
 .video{
-  width: 25%;
-  
+  margin: 16px 142px;
 }
 
 #Dhoni_article{
   padding: 15px;
-  width: 72%;
+  width: 70%;
+  margin: 14px 80px 15px;
   font-size: 0.8rem;
+}
+@media only screen and (max-width:560px){
+  #footer{
+    width: 100%;
+  }
 }
 #footer {
   padding: 18px;
-  width: 77%;
-  height: 31px;
+  width: 100%;
+  height: 40px;
 }
 #footer a{
   padding: 11px;
