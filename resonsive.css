@@ -7,7 +7,7 @@
       background-size: 100%;
       width: 76%;
       background-color: white;
-      background-position: 80px 74px;
+      background-position: 130px 100px;
   }
   #h1{
      width: 56%;
@@ -70,7 +70,7 @@ hr {
 }
 #footer {
   padding: 10px;
-  width: 464px;
+  width: 480px;
   height: 56px;
 }
 #footer a{
