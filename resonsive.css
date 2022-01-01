@@ -10,7 +10,7 @@
       background-position: 80px 74px;
   }
   #h1{
-     width: 56%;
+     width: 576px;
      margin-left: 22%;
      margin-top: 0;
   }
@@ -64,7 +64,7 @@ hr {
 
 #Dhoni_article{
   padding: 10px;
-  width: 110%;
+  width: 120%;
   margin: 2px 48px 15px;
   font-size: 0.8rem;
 }
