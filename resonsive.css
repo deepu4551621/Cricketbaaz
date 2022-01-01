@@ -16,7 +16,7 @@
   }
   #logo{
       width: 14%;
-     
+     margin: -51px 8px;
   }
   nav{
     width: 100%;
@@ -65,7 +65,7 @@ hr {
 #Dhoni_article{
   padding: 10px;
   width: 110%;
-  margin: 2px 20px 15px;
+  margin: 2px 48px 15px;
   font-size: 0.8rem;
 }
 #footer {
