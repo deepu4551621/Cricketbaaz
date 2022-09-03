@@ -81,7 +81,7 @@ nav a:hover {
 #container{
   display: flex;
 }
-pre{
+#self_text pre{
   white-space: pre-line;
   overflow-wrap: break-word;
   text-align: justify;
