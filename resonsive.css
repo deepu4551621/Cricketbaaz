@@ -1,4 +1,4 @@
-  /* Media Query for mobile phones*/
+  /* Media Query for tablets*/
   @media only screen and (max-width: 576px) {
     header {
         width: 100%;
@@ -21,8 +21,7 @@ pre{
      width: 576px;
   }
   #logo{
-      width: 14%;
-      margin-top: -39px;
+      width: 17%;
   }
   nav{
     width: 100%;
@@ -32,7 +31,7 @@ pre{
     padding: 10px 6px;
   }
     .fa-search{
-      margin-left: 71;
+      margin-left: 25px;
     }
     .search-box{
       margin-top: 3px;
@@ -40,10 +39,11 @@ pre{
       width: 30%;
     }
     .search-box input[type="text"]{
-      width: 60%;
+      width: 70%;
       border-radius: 8px;
       margin-top: 5px;
-      padding: 0;
+      margin-right: 0;
+      padding: 0px;
   }
   #self{
     margin-top: 112px;
@@ -78,7 +78,6 @@ hr {
 }
 #footer {
   padding: 10px;
-  width: 471px;
   height: 56px;
 }
 #footer a{
