@@ -4,7 +4,7 @@
 }
 
 hr {
-    width: 61px;
+    width: 100%;
 }
 body {
     font-family: sans-serif;
@@ -78,15 +78,24 @@ nav a:hover {
   background-color: rgba(0, 0, 0,0.4); 
   color: rgb(243, 241, 241); 
 }
-
+#container{
+  display: flex;
+}
+pre{
+  white-space: pre-line;
+  overflow-wrap: break-word;
+  text-align: justify;
+  font-size: large;
+  padding: 30px;
+  background-color: rgb(0 0 0 / 50%);
+  color: rgb(0 0 0 / 80%);
+  font-family: cursive
+}
 #self{
-  margin-top: 128px;
   text-align: center;
   color: rgb(248, 6, 6);
   width: 400px;
   background-color: rgb(249, 250, 249);
-  
-
 }
 #subheading{
   color: rgb(243, 101, 6);
@@ -103,10 +112,6 @@ nav a:hover {
   background-color: rgb(0, 0, 0,0.6);
 }
 /*videos style*/
-.video{
-   display: flex; 
-  /* padding-left: 20px; */
-}
 .videos{
   display: flex;
   padding: 26px;
@@ -116,6 +121,7 @@ nav a:hover {
 }
 .video{
   margin: 6px;
+  display: flex;
 }
 
 #Dhoni_article{
